@@ -50,10 +50,13 @@ public class MessageScript : MonoBehaviour
             if (swipe_Catch.isSwipe)
             {
                 transform.DOLocalMoveX(-200, 1);
+                StartCoroutine(Wait(1));
+                transform.DOKill();
+                Destroy(gameObject);
             }
             else
             {
-                GameOverScreen.transform.DOLocalMoveX(12.811f, 1);
+                GameOverScreen.transform.DOLocalMoveX(12.811, 1);
             }
             print("GAMEOVER");
         }
@@ -158,5 +161,9 @@ public class MessageScript : MonoBehaviour
         InvokeRepeating("Punch", 0, 1.0f);
     }
 }
+<<<<<<< HEAD
 
 >>>>>>> c4e32f16b75219cdd643c7590759dfe2aa6762b4
+=======
+}
+>>>>>>> parent of 75707a5... Testing, 3:47PM
