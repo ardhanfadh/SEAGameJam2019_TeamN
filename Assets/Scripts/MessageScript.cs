@@ -42,13 +42,10 @@ public class MessageScript : MonoBehaviour
             if (swipe_Catch.isSwipe)
             {
                 transform.DOLocalMoveX(-200, 1);
-                StartCoroutine(Wait(1));
-                transform.DOKill();
-                Destroy(gameObject);
             }
             else
             {
-                GameOverScreen.transform.DOLocalMoveX(12.811, 1);
+                GameOverScreen.transform.DOLocalMoveX(12.811f, 1);
             }
             print("GAMEOVER");
         }
@@ -142,5 +139,4 @@ public class MessageScript : MonoBehaviour
     {
         yield return new WaitForSeconds(time);
     }
-}
 }
