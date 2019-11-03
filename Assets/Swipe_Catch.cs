@@ -68,12 +68,18 @@ public void MyCallbackMethod(SwipeControl.SWIPE_DIRECTION iDirection)
 <<<<<<< HEAD
     // Update is called once per frame
 <<<<<<< HEAD
+<<<<<<< HEAD
  
 =======
 >>>>>>> c4e32f16b75219cdd643c7590759dfe2aa6762b4
 =======
+=======
+>>>>>>> parent of 75707a5... Testing, 3:47PM
     void Update()
     {
         
     }
+<<<<<<< HEAD
+>>>>>>> parent of 75707a5... Testing, 3:47PM
+=======
 >>>>>>> parent of 75707a5... Testing, 3:47PM
